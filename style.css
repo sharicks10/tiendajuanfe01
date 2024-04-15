@@ -26,4 +26,34 @@
     opacity: 0.7;
     z-index: -1;
 }
+.p1{
+    background-color: rgb(242, 149, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
 
+.baner1{
+    background-image: url(./img/empleados\ grupo.jpg);
+    padding: 25%;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.baner1::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    z-index: -1;
+
+}
+.p3{
+height: 70px;
+width: 70px;
+}
